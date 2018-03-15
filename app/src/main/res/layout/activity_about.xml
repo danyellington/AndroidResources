@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/webButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/callButton"
+        android:layout_alignStart="@+id/callButton"
+        android:layout_below="@+id/callButton"
+        android:layout_marginTop="57dp"
+        android:background="#FF4081"
+        android:src="@drawable/telegram"
+        android:text="Button" />
+
+
+    <ImageView
+        android:id="@+id/callButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginTop="32dp"
+        android:background="#8A2BE2"
+        android:src="@drawable/phone"
+        android:text="Button" />
+</RelativeLayout>

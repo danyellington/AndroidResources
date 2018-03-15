@@ -9,15 +9,16 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="123dp"
-        android:text="Enter Gallery" />
+        android:text="Enter" />
 
-    <TextView
-        android:id="@+id/textView"
+    <EditText
+        android:id="@+id/locationEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/enterButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="86dp"
-        android:text="TextView" />
+        android:layout_marginBottom="32dp"
+        android:hint="Location" />
+
 
 </RelativeLayout>
